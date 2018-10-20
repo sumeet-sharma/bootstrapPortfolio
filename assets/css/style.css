@@ -1,0 +1,127 @@
+body {
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/concrete_seamless.png");
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  width: 960px;
+  margin: 100px 0px 20px 195px;
+  padding: 20px;
+  height: 700px;
+  border: 1px solid #dddddd;
+}
+
+.display-4 {
+  border-bottom: #dddddd 2px solid;
+}
+
+.container > img {
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+#main-contact {
+  background-color: #ffffff;
+  width: 600px;
+  margin: 20px 0px 20px 350px;
+  padding: 20px;
+  height: 450px;
+  border: 1px solid #dddddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="name"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+#contact-form {
+  padding: 20px;
+}
+
+li {
+  padding: 5px;
+}
+
+#main > h1 {
+  border-bottom: #dddddd 2px solid;
+}
+
+#main > p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 2;
+}
+
+#section > img {
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+#portfolio {
+  width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  height: 1000px;
+}
+
+.image-container {
+  padding-left: 60px;
+}
+
+.card-img-top {
+  margin: auto;
+}
+
+footer > nav {
+  /* background-color: #666666; */
+  color: #ffffff;
+  height: 70px;
+  margin-top: 58px;
+  /* border-top: #4aaaaf 5px solid; */
+}
+
+footer > .navbar > .container {
+  text-align: center;
+  padding-top: 10px;
+  position: relative;
+  padding-left: 500px;
+}
+
+.card > img {
+  height: 200px;
+  width: 200px;
+}
+
+.card {
+  float: left;
+  margin: 20px;
+}
